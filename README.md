@@ -34,4 +34,4 @@ Some requirements are:
 
 ## Submission instructions
 
-Email founders@medisearch.io and give EduardOravkin access to the repo. Also please honestly report the time that this test has taken you.
+Email founders@medisearch.io and give the GitHub users EduardOravkin and mpmisko access to the repo. Also please honestly report the time that this test has taken you. However, please note that speed isn't very important.
