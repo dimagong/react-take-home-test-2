@@ -30,7 +30,7 @@ Some requirements are:
 
 3. Test:
 
-- Test that everything works nicely on ios, android, and desktop. We use https://www.lambdatest.com/ for this. Feel free to use any tool you want. If you don't have access to any tool, we will refund you a lambdatest subscription.
+- Deploy the project with https://vercel.com/ and test that everything works nicely on ios, android, and desktop. We use https://www.lambdatest.com/ for testing on different devices. Feel free to use any testing tool you want. If you don't have access to any tool, we will refund you a lambdatest subscription if it's needed.
 
 ## Submission instructions
 
