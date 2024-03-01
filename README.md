@@ -6,8 +6,6 @@ In this frontend coding test, you will implement an animation within the MediSea
 
 ## Specification
 
-Firstly, please create a fork of this repository.
-
 We created a NextJS application you can find in this repo. As a first step, please run `npm install && npm run dev` and let us know if you run into issues viewing the app on localhost. The application should look something like:
 
 ![plot](./screenshot.png)
@@ -33,4 +31,4 @@ Some requirements are:
 
 ## Submission instructions
 
-Email founders@medisearch.io and give the GitHub users EduardOravkin and mpmisko access to the repo. Also please honestly report the time that this test has taken you. However, please note that speed isn't very important.
+Email `founders@medisearch.io` the zipped codebase containing your code. Also please honestly report the time that this test has taken you. However, please note that speed isn't very important.
