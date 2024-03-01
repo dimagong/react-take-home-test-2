@@ -23,7 +23,7 @@ Some requirements are:
 - The animation should be circular. That is, once a link scrolls out of view of the left side, it should reappear on the right side at some point.
 - The animation should be smooth, continuous, and without lags.
 
-2. Scroll:
+2. Scroll (only for mobile):
 
 - The animation should interact naturally with the user's scroll.
 - When the user presses on the try it out links, the animation should stop and the user should be able to scroll the "Try it out" links horizontally.
