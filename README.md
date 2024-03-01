@@ -25,12 +25,11 @@ Some requirements are:
 
 2. Scroll:
 
-- The animation should interact naturally with the user's scroll. When the user presses on the try it out links, the animation should stop and the user should be able to scroll the "Try it out" links horizontally. When the user stops scrolling, the animation should resume. You are only required to implement this scrolling feature for mobile. However,
-  make sure that the animation works and the UX is natural on desktop too.
-
-3. Test:
-
-- Deploy the project with https://vercel.com/ and test that everything works nicely on ios, android, and desktop. We use https://www.lambdatest.com/ for testing on different devices. Feel free to use any testing tool you want. If you don't have access to any tool, we will refund you a lambdatest subscription if it's needed.
+- The animation should interact naturally with the user's scroll.
+- When the user presses on the try it out links, the animation should stop and the user should be able to scroll the "Try it out" links horizontally.
+- When the user stops scrolling, the animation should resume.
+- The user should be able to click on the "Try it out" links and be redirected to the corresponding page.
+- You are only required to implement this scrolling feature for mobile. However, make sure that the animation works and the UX is natural on desktop too.
 
 ## Submission instructions
 
