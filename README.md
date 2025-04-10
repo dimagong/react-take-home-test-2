@@ -29,8 +29,12 @@ Some requirements are:
 - The user should be able to click on the "Try it out" links and be redirected to the corresponding page.
 - You are only required to implement this scrolling feature for mobile. However, make sure that the animation works and the UX is natural on desktop too.
 
-To get a feel for how this should work, please download the Perplexity app ([Android](https://play.google.com/store/apps/details?id=ai.perplexity.app.android&hl=en&gl=US), [iOS](https://apps.apple.com/us/app/perplexity-ask-anything/id1668000334)) and scroll the links on the home page. Please also make sure that your solution works on popular mobile browsers such as Chrome or Safari.
+To get a feel for how this should work, please go to https://medisearch.io and scroll the example questions on the home page. Please also make sure that your solution works on popular mobile browsers such as Chrome or Safari.
 
 ## Submission instructions
 
 Email `founders@medisearch.io` the zipped codebase containing your code. Also please honestly report the time that this test has taken you. However, please note that speed isn't very important.
+
+## Questions
+
+If you have any questions, email `founders@medisearch.io`.
