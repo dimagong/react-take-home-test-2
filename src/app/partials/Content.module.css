@@ -85,34 +85,49 @@
 
 .floatingLink {
   background-color: transparent;
-  width: 428px; /* Set a fixed width, ensure the container can accommodate it */
-  max-width: 100%; /* Ensure it does not exceed the width of its container */
-  text-align: center; /* Align the text to the left */
-  display: block; /* Change to block to take up the full available width */
+  width: 200px; 
+  max-width: 100%; 
+  text-align: left; 
+  display: block; 
   margin-left: auto;
   margin-right: auto;
-  box-sizing: border-box; /* Include padding and border in the width and height */
+  box-sizing: border-box; 
   color: var(--button-color-one);
   transition: transform 0.3s ease-in-out;
+  
 }
 
+.floatingLinkQuery{
+  text-align: center;
+}
+
+
 .floatingLink:hover {
-  /* scale up the item on hover */
   transform: scale(1.05);
 }
 
-@media (max-width: 700px) {
+.sliderTrackBullet{
+  width: 8px ;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--button-color-one);
+  margin: 7px 18px;
+  
+}
+
+@media (max-width: 768px) {
   .floatingLink {
-    max-width: 90vw; /* Adjust width to a percentage of the screen size */
+    width: 175px;
     border: 0px;
     font-size: 15px;
-    text-align: center;
   }
+  
 }
 
 .linkCloudWrapper {
   font-size: 16px;
   margin-top: 10vh;
+
 }
 
 @media (max-width: 600px) {

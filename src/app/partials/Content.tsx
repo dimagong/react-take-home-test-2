@@ -8,6 +8,7 @@ import SearchBar from "@/app/components/SearchBar";
 import Link from "next/link";
 import clsx from "clsx";
 import { useUserAgent } from "@/app/utilsClient";
+import { Slider } from "../components/slider/slider";
 
 interface HomePageTextInterface {
   className?: string;
@@ -41,7 +42,7 @@ function FloatingLink({ query, href }: FloatingLinkInterface) {
         role="link"
         tabIndex={0}
       >
-        <Flex direction="row" align="center" gap={4}>
+        <Flex direction="row" align="flex-start" justify="flex-start">
           <Image
             width={20}
             height={20}
@@ -49,7 +50,7 @@ function FloatingLink({ query, href }: FloatingLinkInterface) {
             alt="Logo"
             className={styles.littleLinkLogo}
           />
-          {query}
+          <div className={styles.floatingLinkQuery}>{query}</div>
         </Flex>
       </div>
     </Link>
@@ -79,9 +80,16 @@ const LinkCloud = ({ links, className }: LinkCloudProps) => {
       >
         {"Try it out"}
       </span>
-      {links.map((link, index) => (
-        <FloatingLink key={index} query={link.query} href={link.href} />
-      ))}
+      <Slider>
+        <>
+          {[...links, ...links].map((link, index) => (
+            <Flex key={index} align="flex-start" justify="flex-start">
+              <div className={styles.sliderTrackBullet}></div>
+              <FloatingLink query={link.query} href={link.href} />
+            </Flex>
+          ))}
+        </>
+      </Slider>
     </Flex>
   );
 };
